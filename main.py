@@ -55,7 +55,7 @@ if __name__ == "__main__":
     for index in range(0,args.runs):
         now = datetime.now()
         current_time = now.strftime("%H:%M:%S")
-        print("Time:", current_time, "*** BIGRAM SHIFT ***", args.noise, args.embedding, "*** Round:", index, "/", args.runs)
+        print("Time:", current_time, "***", args.path, "***", args.noise, args.embedding, "*** Round:", index, "/", args.runs)
         probe = NoiseProbe(data_file, args.embedding, args.noise)
         probe.evaluate(args.classes, args.baseline)
-    print("BIGRAM SHIFT: Finished", args.runs, args.noise, args.embedding, "evaluation runs.")
+    print(args.path, ": Finished", args.runs, args.noise, args.embedding, "evaluation runs.")
