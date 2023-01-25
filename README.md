@@ -73,7 +73,7 @@ For convenience, the `data` folder provide toy sample datasets in the required f
 
 It is worth noting that these toy datasets are not large enough to learn the task and reproduce our experimental results. You can download a full instance of the `bigram_shift` dataset [here](https://drive.google.com/file/d/1V3ZQLKaxTUSEIy6okqnR9dbPYpJlyk1T/view?usp=sharing), and a full instance of the `top_constituents` dataset [here](https://drive.google.com/file/d/1LdzDVaEyoUb5xWPLUlWXAnxnUOXtls7m/view?usp=sharing), both of which, which include BERT ang GloVE sentence embeddings, in addition to natural language sentences and their labels. Simply download them and place them in the `data` folder to be used with the code.
 
-Both the toy and full datasets datasets are derived from the Conneau et al. (2018) [probing task datasets](https://github.com/facebookresearch/SentEval/blob/main/data/probing/README.md), as described in their paper [What you can cram into a single $&!#* vector: Probing sentence embeddings for linguistic properties](https://arxiv.org/pdf/1805.01070.pdf). If you use our modified dataset or any of the other datasets provided by Conneau et al., in your research, please also cite their work.
+Both the toy and full datasets datasets are derived from the Conneau et al. (2018) [probing task datasets](https://github.com/facebookresearch/SentEval/blob/main/data/probing/), as described in their paper [What you can cram into a single $&!#* vector: Probing sentence embeddings for linguistic properties](https://arxiv.org/pdf/1805.01070.pdf). If you use our modified dataset or any of the other datasets provided by Conneau et al., in your research, please also cite their work.
 
 ### Required Dataset Format
 
@@ -147,6 +147,25 @@ This work has been funded by a grant from Science Foundation Ireland: Grant Numb
 
 # Licensing information:
 
-<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
-
 Copyright © 2023 Filip Klubička. Technological University Dublin, ADAPT Centre.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
+
+1. Redistributions of source code must retain the above copyright notice, this
+   list of conditions and the following disclaimer.
+
+2. Redistributions in binary form must reproduce the above copyright notice,
+   this list of conditions and the following disclaimer in the documentation
+   and/or other materials provided with the distribution.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
+FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
